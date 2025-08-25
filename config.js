@@ -33,19 +33,19 @@ const config = {
     accounts: loadAccounts(),
     sources: {
         tweets: {
-            url: 'https://raw.githubusercontent.com/saraxirani/main/refs/heads/main/shahriar/tweets.txt',
+            url: 'https://raw.githubusercontent.com/jakijaki100200-eng/Leader1/refs/heads/main/tweets.txt',
             fallback: path.join(ROOT_DIR, 'tweets.txt'),
         },
         retweets: {
-            url: 'https://raw.githubusercontent.com/saraxirani/main/refs/heads/main/shahriar/retweets.txt',
+            url: 'https://raw.githubusercontent.com/jakijaki100200-eng/Leader1/refs/heads/main/retweets.txt',
             fallback: path.join(ROOT_DIR, 'retweets.txt'),
         },
         media: {
-            url: 'https://raw.githubusercontent.com/saraxirani/main/refs/heads/main/shahriar/media.txt',
+            url: 'https://raw.githubusercontent.com/jakijaki100200-eng/Leader1/refs/heads/main/media.txt',
             fallback: path.join(ROOT_DIR, 'media.txt'),
         },
         hashtags: {
-            url: 'https://raw.githubusercontent.com/saraxirani/main/refs/heads/main/shahriar/hashtags.txt',
+            url: 'https://raw.githubusercontent.com/jakijaki100200-eng/Leader1/refs/heads/main/hashtags.txt',
             fallback: path.join(ROOT_DIR, 'hashtags.txt'),
         },
     },
